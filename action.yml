@@ -1,0 +1,7 @@
+name: "Build"
+description: "Build the project and deploy"
+runs:
+    using: "composite"
+    steps:
+        - run: build.sh
+          shell: bash
